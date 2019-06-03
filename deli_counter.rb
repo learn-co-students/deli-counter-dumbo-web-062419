@@ -1,4 +1,9 @@
 katz_deli = []
+
+def take_a_number(katz_deli, new_person)
+  puts "Welcome #{new_person}. You are number " + katz_deli.length +  " in line."
+end
+
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
@@ -7,9 +12,7 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(katz_deli, new_person)
-  puts "Welcome #{new_person}. You are number " + katz_deli.length +  " in line."
-end
+
 #take_a_number(katz_deli, "Ada")
 #take_a_number(katz_deli, "Grace")
 #take_a_number(katz_deli, "Kent")
