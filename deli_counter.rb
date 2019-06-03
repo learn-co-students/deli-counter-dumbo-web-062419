@@ -9,8 +9,8 @@ end
 end
 
 #def take_a_number(katz_deli, new_person)
-  puts "Welcome #{new_person}. You are number " + katz_deli.length +  " in line."
-end
+  #puts "Welcome #{new_person}. You are number " + katz_deli.length +  " in line."
+#end
 #take_a_number(katz_deli, "Ada")
 #take_a_number(katz_deli, "Grace")
 #take_a_number(katz_deli, "Kent")
