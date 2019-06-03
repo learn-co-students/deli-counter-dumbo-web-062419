@@ -11,7 +11,7 @@ def line(katz_deli)
   if katz_deli.length >= 1
     message = "The line is currently: "
     katz_deli.each_with_index do |name, index|
-      message += "#{index.to_i+1}. #{name}"
+      message += "#{index.to_i+1}. #{name} "
     end
     puts message
   else
