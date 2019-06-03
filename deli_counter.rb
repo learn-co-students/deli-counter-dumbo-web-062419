@@ -19,16 +19,10 @@ def line(katz_deli)
   end
 end
 
-
-#take_a_number(katz_deli, "Ada")
-#take_a_number(katz_deli, "Grace")
-#take_a_number(katz_deli, "Kent")
-
 def now_serving(katz_deli)
-  next_in_line = katz_deli.shift
-  if (katz_deli.length == 0)
-    puts "There is nobody waiting to be served!"
+  if katz_deli.length == 0
+    puts "There is nobody waiting to  be served!"
   else
-    puts "Currently serving #{next_in_line}."
+    puts "Currently serving: #{katz_deli.shift}."
   end
 end
